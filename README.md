@@ -1,8 +1,10 @@
 # Serverless Agentic AI Platform on AWS
+<img src="logo.png" align="right" width="200" height="200" alt="Logo">
 
-Most of this code is generated using Vibe Coding. 
+Most of this code is generated using Vibe Coding.
 #### **Model:** Claude
 #### **URL:** https://claude.ai/
+
 #### **Version:** 3.7 Sonnet
 #### **Prompt:**
 ```
@@ -24,3 +26,4 @@ I'm building a serverless Agentic AI platform on AWS Lambda for Re-act agents in
    - Cross-agent coordination
    - MCP server interactions
 ```
+
