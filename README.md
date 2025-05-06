@@ -26,4 +26,11 @@ I'm building a serverless Agentic AI platform on AWS Lambda for Re-act agents in
    - Cross-agent coordination
    - MCP server interactions
 ```
+This prompt generated 7 python files. I picked the following 4 out of 7 files it generated which had some tests, task implementation deployment cdk file etc. Will decide if i need those later.
 
+```
+core_dependencies.py   --> This is the base which has all the relevant python pacakges imported (langchain etc)
+aws_service_layer.py   --> This abstracts calls to aws services. This gives a flexibility of only changing this if you want to deploy this to another CSP like GCP or Azure
+protocol_interfaces.py --> This implements the A2A 
+react_agent_lambda.py  --> This implements the actual base level Reason-Act agent. 
+```
